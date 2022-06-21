@@ -1,6 +1,6 @@
 FROM sphinxdoc/sphinx-latexpdf:4.5.0
 
-LABEL "maintainer"="Ammar Askar <ammar@ammaraskar.com>"
+LABEL "maintainer"="Jeremi Joslin <jeremi@newlogic.com>"
 
 RUN pip install -U pip
 RUN pip install python-dateutil
