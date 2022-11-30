@@ -9,6 +9,7 @@ RUN apt-get update \
  && rm -rf /var/lib/apt/lists/*
 RUN pip install -U pip
 RUN pip install python-dateutil
+RUN pip install psycopg2-binary
 ADD entrypoint.py /entrypoint.py
 ADD sphinx_action /sphinx_action
 
